@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  
+   padding: 2px;
+    margin:0;
+  
+}
+
+h1{
+    font-size: 32px;
+    background-color: lightslategray;
+    font-family: sans-serif;
+}
+section{
+    
+    justify-content: center;
+   position: relative;
+    left: 280px;
+    display: flex;
+    height: 100px;
+    width: 1000px;
+    
+}
+
+.odd>div:nth-child(odd){
+    background-color: black;
+}
+
+.even>div:nth-child(even){
+    background-color: black;
+}
+
+div{
+    border: 2px solid black;
+    width: 100px;
+    background-color: rgb(255, 255, 255);   
+    
+}
